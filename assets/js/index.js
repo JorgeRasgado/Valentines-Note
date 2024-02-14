@@ -1,16 +1,15 @@
 let sizeMultiplier = 1.6;
 let currentPhraseIndex = 0;
 const phrases = [
-    "¿Estás segura? 😎",
-    "¿En serio? 😰",
-    "¿Es neta Itzel? 😭",
-    "Por favor 🙏🏻",
-    "¿Te doy más tiempo para pensar? 🤔",
-    "Si dices que no, estaré muy triste 😔",
-    "MUY MUUUUUUUY TRISTE 😪",
-    "Está bien, dejaré de preguntar... 😪",
-    "Hasta crees, POR FAVOR, DÍ QUE SÍ 🙏🏻😭",
-    "Estás rompiendo mi corazón 💔",
+    "¿Estás segura?",
+    "¿En serio?",
+    "Por favor...",
+    "¿Te doy más tiempo para pensar?",
+    "Si dices que no, estaré muy triste.",
+    "MUY MUUUUUUUY TRISTE ;(",
+    "Está bien, dejaré de preguntar...",
+    "MENTIRA, POR FAVOR, DÍ QUE SÍ",
+    "Estás rompiendo mi corazón </3",
     "No"
 ];
 
@@ -41,7 +40,7 @@ function showConfirmation() {
 
     const newText = document.createElement('p');
     newText.className = 'confirmation-text';
-    newText.textContent = 'Sabía que dirías que sí 💖';
+    newText.textContent = 'LO SUPONÍA... 🥱';
     newText.style.fontSize = '2rem';
     newText.style.textAlign = 'center';
 
